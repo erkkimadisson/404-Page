@@ -8,14 +8,14 @@ body {
 
 .left {
     display: block;
-    width: 49%;
+    width: 50%;
     height: 100vh;
     margin: 0;
     float: left;
 }
 .right {
     display: block;
-    width: 49%;
+    width: 50%;
     height: 100vh;
     float: right;
     color: white;
@@ -23,7 +23,8 @@ body {
     font-weight: 50;
 }
 .right div {
-    transform: translate(0, -50%);
+    width: fit-content;
+    transform: translate(15%, -50%);
     margin-top: 50vh;
 }
 .right .h1 br {
@@ -60,7 +61,7 @@ body {
         0 0 0 130px black,
         0 0 0 134px white;
     /* background-color: white; */
-    transform: translate(-50%, -50%) rotate(15deg);
+    transform: translate(-40%, -50%) rotate(15deg);
     margin-left: 25vw;
 
     margin-top: 50vh;
